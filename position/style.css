@@ -1,0 +1,48 @@
+
+
+.tiger{
+    height: auto;
+    width: 300px;
+    border: 5px solid cyan;
+    position: relative;
+    
+
+}
+
+.tiger img{
+    height: auto;
+    width: 300px;
+}
+
+
+/* hover korle p tag er lekha show hobe */
+h2{
+    position: absolute;
+    top: 50px;
+    display: none;
+    font-weight: bold;
+    color: chartreuse;
+    background-color: brown;
+}
+p{
+    position: absolute;
+    top: 81px;
+    display: none;
+    font-weight: bold;
+    color: chartreuse;
+    background-color: brown;
+}
+
+.tiger:hover p{
+    display: block;
+}
+
+.tiger:hover h2{
+    display: block;
+
+}
+
+
+
+
+
